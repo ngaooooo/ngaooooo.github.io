@@ -1,0 +1,43 @@
+@keyframes WALLFLOWER {
+    0% {
+
+        opacity: 0;
+    }
+
+    100% {
+
+        opacity: 1;
+    }
+}
+
+@keyframes WALLFLOWER-OFF {
+    0% {
+
+        opacity: 1;
+    }
+
+    100% {
+
+        opacity: 0;
+    }
+}
+
+.container.first, .container.second {
+
+}
+
+.container.first {
+    animation: WALLFLOWER-OFF 2s 5s forwards;
+}
+
+.container.second {
+    animation: WALLFLOWER 2s 6s forwards;
+}
+
+.container.third {
+    animation: WALLFLOWER 2s 10s forwards;
+}
+
+.container.forth {
+    animation: WALLFLOWER 2s 15s forwards;
+}
